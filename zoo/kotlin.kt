@@ -238,7 +238,7 @@ It looks like we will soon have more rabbits!"""
 fun main() {
     val camera = mutableListOf(camel, lion, deer, goose, bat, rabbit)
     println("Please enter the number of the habitat you would like to view:")
-    val n = readLine()!!.toInt()
+    val n = readln().toInt()
     println(camera[n])
     println("---")
     println("You've reached the end of the program. To check another habitat, please restart the watcher.")
